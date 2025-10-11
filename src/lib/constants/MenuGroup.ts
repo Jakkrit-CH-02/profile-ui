@@ -1,4 +1,4 @@
-import type { MenuGroupType } from "../types/MenuType";
+import type { MenuGroupType } from "../@types/MenuType";
 
 export const MenuGroups: MenuGroupType[] = [
    {

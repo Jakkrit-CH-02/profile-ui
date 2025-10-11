@@ -36,3 +36,18 @@ export const Colors = {
   warning: "#FF8900",
   boldSilver: "#BABEBE"
 }
+
+export const StatusColors = {
+  available: '#BBF7D0',
+  occupied: '#FCA5A5',
+  reserved: '#FDE68A',
+  maintenance: '#C4B5FD',
+  terminated: '#FDBA74',
+  expired: '#FCA5A5',
+  available2: '#22C55E',
+  occupied2: '#EF4444',
+  reserved2: '#F59E0B',
+  maintenance2: '#8B5CF6',
+  terminated2: '#F97316',
+  expired2: '#DC2626',
+}
