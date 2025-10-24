@@ -14,7 +14,10 @@ interface AppBarProps extends MuiAppBarProps {
 const AppBar = styled(MuiAppBar, {
   shouldForwardProp: (prop) => prop !== "open",
 })<AppBarProps>(({ theme }) => ({
-  background: "linear-gradient(90deg, #263238 0%, #90A4AE 100%)",
+  backgroundColor: "#fff",
+  color: "#000",
+  borderBottom: "1px solid #e0e0e0",
+  backdropFilter: "blur(8px)",
   zIndex: theme.zIndex.drawer + 1,
   transition: theme.transitions.create(["width", "margin"], {
     easing: theme.transitions.easing.sharp,
@@ -39,7 +42,6 @@ export const Header: FC<Props> = ({ open, renderIcon }) => {
           flexGrow={1}
           py={1}
           mx={1}
-          color={"black"}
         >
           <Box
             display={"flex"}
@@ -52,16 +54,15 @@ export const Header: FC<Props> = ({ open, renderIcon }) => {
               onClick={() => navigate("/")}
               display={"flex"}
               alignItems={"center"}
-              sx={{ cursor: "pointer" }}
+              sx={{ cursor: "pointer", }}
             >
               <IconImage path={LogoIcon} size={38} />
               <Typography
                 variant="h5"
                 fontWeight={500}
-                mx={0.5}
-                color={"white"}
+                mx={1}
               >
-                E DORM
+                UI STARTER
               </Typography>
             </Box>
           </Box>

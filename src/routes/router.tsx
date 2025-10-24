@@ -9,10 +9,10 @@ export const router = createBrowserRouter([
       children: [
          {
             path: "/",
-            element: <Navigate to={'/users'} />
+            element: <Navigate to={'/dashboard/overview'} />
          },
          {
-            path: '/users',
+            path: '/dashboard/overview',
             element: <div>Hello User</div>
          }
          // {
