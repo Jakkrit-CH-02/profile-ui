@@ -7,7 +7,7 @@ type Props = {
    disabled?: boolean
    fullWidth?: boolean
    id?: string
-   dataCy: string
+   dataCy?: string
    startIcon?: ReactNode
    sx?: SxProps<Theme>
    color?:

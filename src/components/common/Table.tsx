@@ -15,8 +15,8 @@ import {
   IconButton,
 } from "@mui/material";
 import FiberManualRecordIcon from "@mui/icons-material/FiberManualRecord";
-import { PrimaryButton } from "./PrimaryButton";
-import { OutlineButton } from "./OutlineButton";
+import { PrimaryButton } from "./Button/PrimaryButton";
+import { OutlineButton } from "./Button/OutlineButton";
 import VisibilityIcon from "@mui/icons-material/Visibility";
 import ModeEditIcon from "@mui/icons-material/ModeEdit";
 import DeleteIcon from "@mui/icons-material/Delete";
