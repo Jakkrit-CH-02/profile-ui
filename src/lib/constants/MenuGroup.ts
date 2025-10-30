@@ -1,8 +1,9 @@
 import type { MenuGroupType } from "../@types/MenuType";
 import PersonalVideoRoundedIcon from '@mui/icons-material/PersonalVideoRounded';
-import EqualizerRoundedIcon from '@mui/icons-material/EqualizerRounded';
-import HomeWorkRoundedIcon from '@mui/icons-material/HomeWorkRounded';
-import TopicRoundedIcon from '@mui/icons-material/TopicRounded';
+import FolderSharedRoundedIcon from '@mui/icons-material/FolderSharedRounded';
+// import EqualizerRoundedIcon from '@mui/icons-material/EqualizerRounded';
+// import HomeWorkRoundedIcon from '@mui/icons-material/HomeWorkRounded';
+// import TopicRoundedIcon from '@mui/icons-material/TopicRounded';
 
 export const MenuGroups: MenuGroupType[] = [
    {
@@ -11,17 +12,17 @@ export const MenuGroups: MenuGroupType[] = [
       mb: 2,
       menuList: [
          {
-            name: "overview",
-            pathName: "/dashboard/overview",
-            text: "Overview",
-            icon: PersonalVideoRoundedIcon,
+            name: "proflie",
+            pathName: "/profile",
+            text: "Profile",
+            icon: FolderSharedRoundedIcon,
             subMenus: [],
          },
          {
-            name: "analytics",
-            pathName: "/dashboard/analytics",
-            text: "Analytics",
-            icon: EqualizerRoundedIcon,
+            name: "overview",
+            pathName: "/profile/overview",
+            text: "Overview",
+            icon: PersonalVideoRoundedIcon,
             subMenus: [],
          },
       ]
@@ -32,17 +33,17 @@ export const MenuGroups: MenuGroupType[] = [
    //    mb: 2,
    //    menuList: [
    //       {
-   //          name: "",
-   //          pathName: "/",
-   //          text: "",
-   //          icon: null,
+   //          name: "room",
+   //          pathName: "/rooms",
+   //          text: "Room",
+   //          icon: HomeWorkRoundedIcon,
    //          subMenus: [],
    //       },
    //       {
-   //          name: "",
-   //          pathName: "/",
-   //          text: "",
-   //          icon: null,
+   //          name: "contract",
+   //          pathName: "/contracts",
+   //          text: "Contract",
+   //          icon: TopicRoundedIcon,
    //          subMenus: [],
    //       },
    //    ]

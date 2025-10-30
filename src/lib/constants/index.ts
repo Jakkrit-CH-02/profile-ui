@@ -1,4 +1,4 @@
-export const DRAWER_WIDTH = 320;
+export const DRAWER_WIDTH = 260;
 export const ACTIVE_LAYOUT_WIDTH = 330;
 export const HEADER_HEIGHT = 64;
 export const PADDING_LAYOUT =24;
